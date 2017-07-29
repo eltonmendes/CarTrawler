@@ -1,0 +1,10 @@
+
+//Error Handlers
+
+"error.action.ok" = "OK";
+"error.title" = "Atenção";
+
+//Feed List
+
+"feed.pickup" = "Data de reserva";
+"feed.return" = "Data de retorno";

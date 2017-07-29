@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02FE810A1F2B61B2004A07E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE81091F2B61B2004A07E5 /* main.m */; };
+		02FE810D1F2B61B2004A07E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE810C1F2B61B2004A07E5 /* AppDelegate.m */; };
+		02FE81131F2B61B2004A07E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02FE81111F2B61B2004A07E5 /* Main.storyboard */; };
+		02FE81151F2B61B2004A07E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02FE81141F2B61B2004A07E5 /* Assets.xcassets */; };
+		02FE81181F2B61B2004A07E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02FE81161F2B61B2004A07E5 /* LaunchScreen.storyboard */; };
+		02FE81231F2B61B2004A07E5 /* CartrawlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE81221F2B61B2004A07E5 /* CartrawlerTests.m */; };
+		02FE814F1F2B6654004A07E5 /* CTDefaultService.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE814E1F2B6654004A07E5 /* CTDefaultService.m */; };
+		02FE81521F2B666B004A07E5 /* CTFeedService.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE81511F2B666B004A07E5 /* CTFeedService.m */; };
+		02FE815B1F2B699E004A07E5 /* CTFeedListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE815A1F2B699E004A07E5 /* CTFeedListViewModel.m */; };
+		02FE815F1F2B6A16004A07E5 /* CTFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE815E1F2B6A16004A07E5 /* CTFeedTableViewController.m */; };
+		02FE81631F2B6BA7004A07E5 /* CTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE81621F2B6BA7004A07E5 /* CTBaseModel.m */; };
+		02FE81671F2B6BEC004A07E5 /* CTFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE81661F2B6BEC004A07E5 /* CTFeed.m */; };
+		02FE816A1F2B6CAF004A07E5 /* CTAvailableVendors.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE81691F2B6CAF004A07E5 /* CTAvailableVendors.m */; };
+		02FE816D1F2B6CC4004A07E5 /* CTRentalScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE816C1F2B6CC4004A07E5 /* CTRentalScore.m */; };
+		02FE81761F2B86E9004A07E5 /* CTVendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE81751F2B86E9004A07E5 /* CTVendor.m */; };
+		02FE817C1F2B89FB004A07E5 /* CTVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE817B1F2B89FB004A07E5 /* CTVehicle.m */; };
+		02FE81871F2C942A004A07E5 /* CTFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE81861F2C942A004A07E5 /* CTFeedTableViewCell.m */; };
+		02FE818F1F2CDF3C004A07E5 /* CTDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE818E1F2CDF3C004A07E5 /* CTDateFormatter.m */; };
+		02FE81931F2CE24C004A07E5 /* NSDate+CTCustomDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE81921F2CE24C004A07E5 /* NSDate+CTCustomDate.m */; };
+		02FE81981F2CED55004A07E5 /* CTFeedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE81971F2CED55004A07E5 /* CTFeedDetailViewController.m */; };
+		02FE819B1F2CED91004A07E5 /* CTFeedDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE819A1F2CED91004A07E5 /* CTFeedDetailViewModel.m */; };
+		02FE819F1F2D21F5004A07E5 /* NSError+CTErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FE819E1F2D21F5004A07E5 /* NSError+CTErrorHandler.m */; };
+		02FE81A91F2D2492004A07E5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02FE81AB1F2D2492004A07E5 /* Localizable.strings */; };
+		B824C2596D71904478B9EC32 /* libPods-Cartrawler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC6C53E2C872431708088B5 /* libPods-Cartrawler.a */; };
+		FC05A5D0D853DB7DA2BC4BB6 /* libPods-CartrawlerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5E5A1742438B9B647610E2 /* libPods-CartrawlerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02FE811F1F2B61B2004A07E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02FE80FD1F2B61B2004A07E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02FE81041F2B61B2004A07E5;
+			remoteInfo = Cartrawler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FE81051F2B61B2004A07E5 /* Cartrawler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cartrawler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FE81091F2B61B2004A07E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02FE810B1F2B61B2004A07E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02FE810C1F2B61B2004A07E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02FE81121F2B61B2004A07E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02FE81141F2B61B2004A07E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02FE81171F2B61B2004A07E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02FE81191F2B61B2004A07E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02FE811E1F2B61B2004A07E5 /* CartrawlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartrawlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FE81221F2B61B2004A07E5 /* CartrawlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartrawlerTests.m; sourceTree = "<group>"; };
+		02FE81241F2B61B2004A07E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02FE814D1F2B6654004A07E5 /* CTDefaultService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTDefaultService.h; path = Service/CTDefaultService.h; sourceTree = "<group>"; };
+		02FE814E1F2B6654004A07E5 /* CTDefaultService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTDefaultService.m; path = Service/CTDefaultService.m; sourceTree = "<group>"; };
+		02FE81501F2B666B004A07E5 /* CTFeedService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTFeedService.h; path = Service/FeedService/CTFeedService.h; sourceTree = "<group>"; };
+		02FE81511F2B666B004A07E5 /* CTFeedService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTFeedService.m; path = Service/FeedService/CTFeedService.m; sourceTree = "<group>"; };
+		02FE81591F2B699E004A07E5 /* CTFeedListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTFeedListViewModel.h; path = Modules/Feed/FeedList/ViewModel/CTFeedListViewModel.h; sourceTree = "<group>"; };
+		02FE815A1F2B699E004A07E5 /* CTFeedListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTFeedListViewModel.m; path = Modules/Feed/FeedList/ViewModel/CTFeedListViewModel.m; sourceTree = "<group>"; };
+		02FE815D1F2B6A16004A07E5 /* CTFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTFeedTableViewController.h; path = Modules/Feed/FeedList/View/CTFeedTableViewController.h; sourceTree = "<group>"; };
+		02FE815E1F2B6A16004A07E5 /* CTFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTFeedTableViewController.m; path = Modules/Feed/FeedList/View/CTFeedTableViewController.m; sourceTree = "<group>"; };
+		02FE81611F2B6BA7004A07E5 /* CTBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTBaseModel.h; path = Model/CTBaseModel.h; sourceTree = "<group>"; };
+		02FE81621F2B6BA7004A07E5 /* CTBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTBaseModel.m; path = Model/CTBaseModel.m; sourceTree = "<group>"; };
+		02FE81651F2B6BEC004A07E5 /* CTFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTFeed.h; path = Model/Feed/CTFeed.h; sourceTree = "<group>"; };
+		02FE81661F2B6BEC004A07E5 /* CTFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTFeed.m; path = Model/Feed/CTFeed.m; sourceTree = "<group>"; };
+		02FE81681F2B6CAF004A07E5 /* CTAvailableVendors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTAvailableVendors.h; path = Model/Feed/CTAvailableVendors.h; sourceTree = "<group>"; };
+		02FE81691F2B6CAF004A07E5 /* CTAvailableVendors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTAvailableVendors.m; path = Model/Feed/CTAvailableVendors.m; sourceTree = "<group>"; };
+		02FE816B1F2B6CC4004A07E5 /* CTRentalScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTRentalScore.h; path = Model/Feed/CTRentalScore.h; sourceTree = "<group>"; };
+		02FE816C1F2B6CC4004A07E5 /* CTRentalScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTRentalScore.m; path = Model/Feed/CTRentalScore.m; sourceTree = "<group>"; };
+		02FE81741F2B86E9004A07E5 /* CTVendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTVendor.h; path = Model/Feed/CTVendor.h; sourceTree = "<group>"; };
+		02FE81751F2B86E9004A07E5 /* CTVendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTVendor.m; path = Model/Feed/CTVendor.m; sourceTree = "<group>"; };
+		02FE817A1F2B89FB004A07E5 /* CTVehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTVehicle.h; path = Model/Vehicle/CTVehicle.h; sourceTree = "<group>"; };
+		02FE817B1F2B89FB004A07E5 /* CTVehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTVehicle.m; path = Model/Vehicle/CTVehicle.m; sourceTree = "<group>"; };
+		02FE81851F2C942A004A07E5 /* CTFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTFeedTableViewCell.h; path = Modules/Feed/FeedList/View/CTFeedTableViewCell.h; sourceTree = "<group>"; };
+		02FE81861F2C942A004A07E5 /* CTFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTFeedTableViewCell.m; path = Modules/Feed/FeedList/View/CTFeedTableViewCell.m; sourceTree = "<group>"; };
+		02FE818D1F2CDF3C004A07E5 /* CTDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTDateFormatter.h; path = Formatter/CTDateFormatter.h; sourceTree = "<group>"; };
+		02FE818E1F2CDF3C004A07E5 /* CTDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTDateFormatter.m; path = Formatter/CTDateFormatter.m; sourceTree = "<group>"; };
+		02FE81911F2CE24C004A07E5 /* NSDate+CTCustomDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+CTCustomDate.h"; path = "Categories/NSDate+CTCustomDate.h"; sourceTree = "<group>"; };
+		02FE81921F2CE24C004A07E5 /* NSDate+CTCustomDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CTCustomDate.m"; path = "Categories/NSDate+CTCustomDate.m"; sourceTree = "<group>"; };
+		02FE81961F2CED55004A07E5 /* CTFeedDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTFeedDetailViewController.h; path = Modules/FeedDetail/View/CTFeedDetailViewController.h; sourceTree = "<group>"; };
+		02FE81971F2CED55004A07E5 /* CTFeedDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTFeedDetailViewController.m; path = Modules/FeedDetail/View/CTFeedDetailViewController.m; sourceTree = "<group>"; };
+		02FE81991F2CED91004A07E5 /* CTFeedDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTFeedDetailViewModel.h; path = Modules/FeedDetail/ViewModel/CTFeedDetailViewModel.h; sourceTree = "<group>"; };
+		02FE819A1F2CED91004A07E5 /* CTFeedDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTFeedDetailViewModel.m; path = Modules/FeedDetail/ViewModel/CTFeedDetailViewModel.m; sourceTree = "<group>"; };
+		02FE819D1F2D21F5004A07E5 /* NSError+CTErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+CTErrorHandler.h"; path = "Categories/NSError+CTErrorHandler.h"; sourceTree = "<group>"; };
+		02FE819E1F2D21F5004A07E5 /* NSError+CTErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+CTErrorHandler.m"; path = "Categories/NSError+CTErrorHandler.m"; sourceTree = "<group>"; };
+		02FE81AA1F2D2492004A07E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		02FE81AC1F2D24A3004A07E5 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6F72007D11F35EA20C14E308 /* Pods-Cartrawler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartrawler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cartrawler/Pods-Cartrawler.debug.xcconfig"; sourceTree = "<group>"; };
+		75F2D76CEF21A663F9E12907 /* Pods-Cartrawler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartrawler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cartrawler/Pods-Cartrawler.release.xcconfig"; sourceTree = "<group>"; };
+		9D58C9964D6127EDB83A9636 /* Pods-CartrawlerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartrawlerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CartrawlerTests/Pods-CartrawlerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5FFE1669E2D7936F4D6B43F /* Pods-CartrawlerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartrawlerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CartrawlerTests/Pods-CartrawlerTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA5E5A1742438B9B647610E2 /* libPods-CartrawlerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CartrawlerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC6C53E2C872431708088B5 /* libPods-Cartrawler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cartrawler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02FE81021F2B61B2004A07E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B824C2596D71904478B9EC32 /* libPods-Cartrawler.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FE811B1F2B61B2004A07E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC05A5D0D853DB7DA2BC4BB6 /* libPods-CartrawlerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FE80FC1F2B61B2004A07E5 = {
+			isa = PBXGroup;
+			children = (
+				02FE81071F2B61B2004A07E5 /* Cartrawler */,
+				02FE81211F2B61B2004A07E5 /* CartrawlerTests */,
+				02FE81061F2B61B2004A07E5 /* Products */,
+				24C1EDCE70694AFBB6F94EC0 /* Pods */,
+				7417DE8818DBEDAD774506D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02FE81061F2B61B2004A07E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81051F2B61B2004A07E5 /* Cartrawler.app */,
+				02FE811E1F2B61B2004A07E5 /* CartrawlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02FE81071F2B61B2004A07E5 /* Cartrawler */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81901F2CE22E004A07E5 /* Categories */,
+				02FE818C1F2CDF1A004A07E5 /* Formatter */,
+				02FE81321F2B61E3004A07E5 /* Resources */,
+				02FE81601F2B6B96004A07E5 /* Model */,
+				02FE81311F2B61DB004A07E5 /* Service */,
+				02FE812D1F2B61BF004A07E5 /* Modules */,
+				02FE810B1F2B61B2004A07E5 /* AppDelegate.h */,
+				02FE810C1F2B61B2004A07E5 /* AppDelegate.m */,
+				02FE81081F2B61B2004A07E5 /* Supporting Files */,
+			);
+			path = Cartrawler;
+			sourceTree = "<group>";
+		};
+		02FE81081F2B61B2004A07E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81091F2B61B2004A07E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02FE81211F2B61B2004A07E5 /* CartrawlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81221F2B61B2004A07E5 /* CartrawlerTests.m */,
+				02FE81241F2B61B2004A07E5 /* Info.plist */,
+			);
+			path = CartrawlerTests;
+			sourceTree = "<group>";
+		};
+		02FE812D1F2B61BF004A07E5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81531F2B6963004A07E5 /* Feed */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		02FE81311F2B61DB004A07E5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				02FE814C1F2B6634004A07E5 /* FeedService */,
+				02FE814D1F2B6654004A07E5 /* CTDefaultService.h */,
+				02FE814E1F2B6654004A07E5 /* CTDefaultService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		02FE81321F2B61E3004A07E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81111F2B61B2004A07E5 /* Main.storyboard */,
+				02FE81141F2B61B2004A07E5 /* Assets.xcassets */,
+				02FE81161F2B61B2004A07E5 /* LaunchScreen.storyboard */,
+				02FE81191F2B61B2004A07E5 /* Info.plist */,
+				02FE81AB1F2D2492004A07E5 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		02FE814C1F2B6634004A07E5 /* FeedService */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81501F2B666B004A07E5 /* CTFeedService.h */,
+				02FE81511F2B666B004A07E5 /* CTFeedService.m */,
+			);
+			name = FeedService;
+			sourceTree = "<group>";
+		};
+		02FE81531F2B6963004A07E5 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81881F2CDC2B004A07E5 /* FeedDetail */,
+				02FE81541F2B6967004A07E5 /* FeedList */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+		02FE81541F2B6967004A07E5 /* FeedList */ = {
+			isa = PBXGroup;
+			children = (
+				02FE815C1F2B69FD004A07E5 /* View */,
+				02FE81551F2B696E004A07E5 /* ViewModel */,
+			);
+			name = FeedList;
+			sourceTree = "<group>";
+		};
+		02FE81551F2B696E004A07E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81591F2B699E004A07E5 /* CTFeedListViewModel.h */,
+				02FE815A1F2B699E004A07E5 /* CTFeedListViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		02FE815C1F2B69FD004A07E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02FE815D1F2B6A16004A07E5 /* CTFeedTableViewController.h */,
+				02FE815E1F2B6A16004A07E5 /* CTFeedTableViewController.m */,
+				02FE81851F2C942A004A07E5 /* CTFeedTableViewCell.h */,
+				02FE81861F2C942A004A07E5 /* CTFeedTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		02FE81601F2B6B96004A07E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81611F2B6BA7004A07E5 /* CTBaseModel.h */,
+				02FE81621F2B6BA7004A07E5 /* CTBaseModel.m */,
+				02FE81641F2B6BD9004A07E5 /* Feed */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		02FE81641F2B6BD9004A07E5 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				02FE819C1F2D2117004A07E5 /* Rental */,
+				02FE81811F2B8B34004A07E5 /* Vendor */,
+				02FE817D1F2B8A04004A07E5 /* Vehicle */,
+				02FE81651F2B6BEC004A07E5 /* CTFeed.h */,
+				02FE81661F2B6BEC004A07E5 /* CTFeed.m */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+		02FE817D1F2B8A04004A07E5 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				02FE817A1F2B89FB004A07E5 /* CTVehicle.h */,
+				02FE817B1F2B89FB004A07E5 /* CTVehicle.m */,
+			);
+			name = Vehicle;
+			sourceTree = "<group>";
+		};
+		02FE81811F2B8B34004A07E5 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81741F2B86E9004A07E5 /* CTVendor.h */,
+				02FE81751F2B86E9004A07E5 /* CTVendor.m */,
+				02FE81681F2B6CAF004A07E5 /* CTAvailableVendors.h */,
+				02FE81691F2B6CAF004A07E5 /* CTAvailableVendors.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		02FE81881F2CDC2B004A07E5 /* FeedDetail */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81951F2CED3B004A07E5 /* ViewModel */,
+				02FE81941F2CED36004A07E5 /* View */,
+			);
+			name = FeedDetail;
+			sourceTree = "<group>";
+		};
+		02FE818C1F2CDF1A004A07E5 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				02FE818D1F2CDF3C004A07E5 /* CTDateFormatter.h */,
+				02FE818E1F2CDF3C004A07E5 /* CTDateFormatter.m */,
+			);
+			name = Formatter;
+			sourceTree = "<group>";
+		};
+		02FE81901F2CE22E004A07E5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81911F2CE24C004A07E5 /* NSDate+CTCustomDate.h */,
+				02FE81921F2CE24C004A07E5 /* NSDate+CTCustomDate.m */,
+				02FE819D1F2D21F5004A07E5 /* NSError+CTErrorHandler.h */,
+				02FE819E1F2D21F5004A07E5 /* NSError+CTErrorHandler.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		02FE81941F2CED36004A07E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81961F2CED55004A07E5 /* CTFeedDetailViewController.h */,
+				02FE81971F2CED55004A07E5 /* CTFeedDetailViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		02FE81951F2CED3B004A07E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				02FE81991F2CED91004A07E5 /* CTFeedDetailViewModel.h */,
+				02FE819A1F2CED91004A07E5 /* CTFeedDetailViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		02FE819C1F2D2117004A07E5 /* Rental */ = {
+			isa = PBXGroup;
+			children = (
+				02FE816B1F2B6CC4004A07E5 /* CTRentalScore.h */,
+				02FE816C1F2B6CC4004A07E5 /* CTRentalScore.m */,
+			);
+			name = Rental;
+			sourceTree = "<group>";
+		};
+		24C1EDCE70694AFBB6F94EC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F72007D11F35EA20C14E308 /* Pods-Cartrawler.debug.xcconfig */,
+				75F2D76CEF21A663F9E12907 /* Pods-Cartrawler.release.xcconfig */,
+				9D58C9964D6127EDB83A9636 /* Pods-CartrawlerTests.debug.xcconfig */,
+				B5FFE1669E2D7936F4D6B43F /* Pods-CartrawlerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7417DE8818DBEDAD774506D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFC6C53E2C872431708088B5 /* libPods-Cartrawler.a */,
+				EA5E5A1742438B9B647610E2 /* libPods-CartrawlerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02FE81041F2B61B2004A07E5 /* Cartrawler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FE81271F2B61B2004A07E5 /* Build configuration list for PBXNativeTarget "Cartrawler" */;
+			buildPhases = (
+				9A7DD44DFCB89B75346E46D9 /* [CP] Check Pods Manifest.lock */,
+				02FE81011F2B61B2004A07E5 /* Sources */,
+				02FE81021F2B61B2004A07E5 /* Frameworks */,
+				02FE81031F2B61B2004A07E5 /* Resources */,
+				6804DB5F74690F16CCA5C15D /* [CP] Embed Pods Frameworks */,
+				9BE9821A3B03DBDA6D7AC5BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cartrawler;
+			productName = Cartrawler;
+			productReference = 02FE81051F2B61B2004A07E5 /* Cartrawler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02FE811D1F2B61B2004A07E5 /* CartrawlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FE812A1F2B61B2004A07E5 /* Build configuration list for PBXNativeTarget "CartrawlerTests" */;
+			buildPhases = (
+				863EA8ADCDBCA1A54A0F070D /* [CP] Check Pods Manifest.lock */,
+				02FE811A1F2B61B2004A07E5 /* Sources */,
+				02FE811B1F2B61B2004A07E5 /* Frameworks */,
+				02FE811C1F2B61B2004A07E5 /* Resources */,
+				8DAC0B2E21DC3E6A3E9B7BE4 /* [CP] Embed Pods Frameworks */,
+				D8DFC14DB08C9EC6A7393817 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02FE81201F2B61B2004A07E5 /* PBXTargetDependency */,
+			);
+			name = CartrawlerTests;
+			productName = CartrawlerTests;
+			productReference = 02FE811E1F2B61B2004A07E5 /* CartrawlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02FE80FD1F2B61B2004A07E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = EltonMendes;
+				TargetAttributes = {
+					02FE81041F2B61B2004A07E5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 65X7DX2885;
+						ProvisioningStyle = Automatic;
+					};
+					02FE811D1F2B61B2004A07E5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 65X7DX2885;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02FE81041F2B61B2004A07E5;
+					};
+				};
+			};
+			buildConfigurationList = 02FE81001F2B61B2004A07E5 /* Build configuration list for PBXProject "Cartrawler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"pt-BR",
+			);
+			mainGroup = 02FE80FC1F2B61B2004A07E5;
+			productRefGroup = 02FE81061F2B61B2004A07E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02FE81041F2B61B2004A07E5 /* Cartrawler */,
+				02FE811D1F2B61B2004A07E5 /* CartrawlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02FE81031F2B61B2004A07E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FE81181F2B61B2004A07E5 /* LaunchScreen.storyboard in Resources */,
+				02FE81A91F2D2492004A07E5 /* Localizable.strings in Resources */,
+				02FE81151F2B61B2004A07E5 /* Assets.xcassets in Resources */,
+				02FE81131F2B61B2004A07E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FE811C1F2B61B2004A07E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6804DB5F74690F16CCA5C15D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cartrawler/Pods-Cartrawler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863EA8ADCDBCA1A54A0F070D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DAC0B2E21DC3E6A3E9B7BE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CartrawlerTests/Pods-CartrawlerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7DD44DFCB89B75346E46D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE9821A3B03DBDA6D7AC5BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cartrawler/Pods-Cartrawler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DFC14DB08C9EC6A7393817 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CartrawlerTests/Pods-CartrawlerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02FE81011F2B61B2004A07E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FE819B1F2CED91004A07E5 /* CTFeedDetailViewModel.m in Sources */,
+				02FE81981F2CED55004A07E5 /* CTFeedDetailViewController.m in Sources */,
+				02FE81631F2B6BA7004A07E5 /* CTBaseModel.m in Sources */,
+				02FE817C1F2B89FB004A07E5 /* CTVehicle.m in Sources */,
+				02FE819F1F2D21F5004A07E5 /* NSError+CTErrorHandler.m in Sources */,
+				02FE815F1F2B6A16004A07E5 /* CTFeedTableViewController.m in Sources */,
+				02FE81931F2CE24C004A07E5 /* NSDate+CTCustomDate.m in Sources */,
+				02FE81521F2B666B004A07E5 /* CTFeedService.m in Sources */,
+				02FE816D1F2B6CC4004A07E5 /* CTRentalScore.m in Sources */,
+				02FE818F1F2CDF3C004A07E5 /* CTDateFormatter.m in Sources */,
+				02FE81871F2C942A004A07E5 /* CTFeedTableViewCell.m in Sources */,
+				02FE810D1F2B61B2004A07E5 /* AppDelegate.m in Sources */,
+				02FE816A1F2B6CAF004A07E5 /* CTAvailableVendors.m in Sources */,
+				02FE815B1F2B699E004A07E5 /* CTFeedListViewModel.m in Sources */,
+				02FE814F1F2B6654004A07E5 /* CTDefaultService.m in Sources */,
+				02FE81761F2B86E9004A07E5 /* CTVendor.m in Sources */,
+				02FE81671F2B6BEC004A07E5 /* CTFeed.m in Sources */,
+				02FE810A1F2B61B2004A07E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FE811A1F2B61B2004A07E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FE81231F2B61B2004A07E5 /* CartrawlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02FE81201F2B61B2004A07E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02FE81041F2B61B2004A07E5 /* Cartrawler */;
+			targetProxy = 02FE811F1F2B61B2004A07E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02FE81111F2B61B2004A07E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02FE81121F2B61B2004A07E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02FE81161F2B61B2004A07E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02FE81171F2B61B2004A07E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		02FE81AB1F2D2492004A07E5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02FE81AA1F2D2492004A07E5 /* Base */,
+				02FE81AC1F2D24A3004A07E5 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02FE81251F2B61B2004A07E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02FE81261F2B61B2004A07E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02FE81281F2B61B2004A07E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F72007D11F35EA20C14E308 /* Pods-Cartrawler.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65X7DX2885;
+				INFOPLIST_FILE = Cartrawler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonmendes.Cartrawler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02FE81291F2B61B2004A07E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F2D76CEF21A663F9E12907 /* Pods-Cartrawler.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65X7DX2885;
+				INFOPLIST_FILE = Cartrawler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonmendes.Cartrawler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02FE812B1F2B61B2004A07E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D58C9964D6127EDB83A9636 /* Pods-CartrawlerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65X7DX2885;
+				INFOPLIST_FILE = CartrawlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonmendes.CartrawlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cartrawler.app/Cartrawler";
+			};
+			name = Debug;
+		};
+		02FE812C1F2B61B2004A07E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FFE1669E2D7936F4D6B43F /* Pods-CartrawlerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65X7DX2885;
+				INFOPLIST_FILE = CartrawlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonmendes.CartrawlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cartrawler.app/Cartrawler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02FE81001F2B61B2004A07E5 /* Build configuration list for PBXProject "Cartrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FE81251F2B61B2004A07E5 /* Debug */,
+				02FE81261F2B61B2004A07E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FE81271F2B61B2004A07E5 /* Build configuration list for PBXNativeTarget "Cartrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FE81281F2B61B2004A07E5 /* Debug */,
+				02FE81291F2B61B2004A07E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FE812A1F2B61B2004A07E5 /* Build configuration list for PBXNativeTarget "CartrawlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FE812B1F2B61B2004A07E5 /* Debug */,
+				02FE812C1F2B61B2004A07E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02FE80FD1F2B61B2004A07E5 /* Project object */;
+}

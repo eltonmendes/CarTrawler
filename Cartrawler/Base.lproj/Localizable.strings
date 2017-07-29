@@ -1,0 +1,15 @@
+
+//Error Handlers
+
+"error.action.ok" = "OK";
+"error.title" = "Atention";
+
+//Feed List
+
+"feed.pickup" = "Pick-up Date";
+"feed.return" = "Return Date";
+
+//Common
+
+"common.yes" = "YES";
+"common.no" = "NO";
